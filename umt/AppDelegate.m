@@ -57,7 +57,7 @@ void updateStatus(NSStatusItem *statusItem){
       statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:statusMenu];
     //updateStatus(statusItem);
-    [NSTimer scheduledTimerWithTimeInterval:2.0
+    [NSTimer scheduledTimerWithTimeInterval:0.5
 target:self
 selector:@selector(updater)
 userInfo:nil
